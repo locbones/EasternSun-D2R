@@ -2,44 +2,51 @@
     "type": "BankPanel", "name": "BankOriginalLayout",
     "fields": {
         "priority": 5,
-        "rect": "$LeftPanelRect",
-        "anchor": "$LeftPanelAnchor",
+        "rect": "$LeftPanelRectS",
+        "anchor": "$LeftPanelAnchor"
     },
     "children": [
         {
             "type": "ClickCatcherWidget", "name": "click_catcher",
             "fields": {
-                "rect" : { "x": 0, "y": 0, "width": 1750, "height": 1799 },
-            },
+                "rect" : { "x": 0, "y": 0, "width": 1750, "height": 1799 }
+            }
         },
         {
             "type": "ImageWidget", "name": "background",
             "fields": {
                 "filename": "PANEL\\Stash\\StashPanel_BG2",
-                "rect": { "x": 0, "y": 0 },
-            },
+                "rect": { "x": 0, "y": 0 }
+            }
+        },
+        {
+            "type": "ImageWidget", "name": "LeftSprite",
+            "fields": {
+                "rect": "$LeftSideRectHireMenu",
+                "filename": "$LeftSideSpriteNew_Blank"
+            }
         },
         {
             "type": "ImageWidget", "name": "LeftHinge",
             "fields": {
                 "rect": "$LeftHingeRect",
-                "filename": "$LeftHingeSprite"
-            },
+                "filename": "$LeftHingeSprite_Blank"
+            }
         },
         {
             "type": "TextBoxWidget", "name": "title",
             "fields": {
                 "rect": { "x": 877, "y": 100 },
                 "style": "$StyleTitleBlock",
-                "text": "@stash",
-            },
+                "text": "@stash"
+            }
         },
         {
             "type": "TextBoxWidget", "name": "gold_amount",
             "fields": {
                 "rect": "$BankPanelGoldAmountRect",
-                "style": "$StyleGoldAmount",
-            },
+                "style": "$StyleGoldAmount"
+            }
         },
         {
             "type": "ButtonWidget", "name": "gold_withdraw",
@@ -48,8 +55,8 @@
                 "filename": "PANEL\\GoldButton",
                 "hoveredFrame": 3,
                 "tooltipString": "@strGoldWithdraw",
-                "onClickMessage": "BankPanelMessage:Withdraw",
-            },
+                "onClickMessage": "BankPanelMessage:Withdraw"
+            }
         },
         {
             "type": "ButtonWidget", "name": "close",
@@ -59,8 +66,8 @@
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "sound": "cursor_close_window_hd",
-                "onClickMessage": "BankPanelMessage:Close",
-            },
+                "onClickMessage": "BankPanelMessage:Close"
+            }
         },
         {
             "type": "InventoryGridWidget", "name": "grid",
@@ -68,8 +75,8 @@
                 "rect": { "x": 95, "y": 235 },
                 "cellCount": { "x": 16, "y": 13 },
                 "cellSize": "$ItemCellSize",
-                "gemSocketFilename": "PANEL\\gemsocket",
-            },
+                "gemSocketFilename": "PANEL\\gemsocket"
+            }
         },
         {
             "type": "TabBarWidget", "name": "BankTabs",
@@ -86,8 +93,8 @@
                 "inactiveTextColor": "$TabsInactiveTextColor",
                 "tabSize": { "x": 249, "y": 75 },
                 "tabPadding": { "x": 12, "y": 0 },
-                "onSwitchTabMessage": "BankPanelMessage:SelectTab",
+                "onSwitchTabMessage": "BankPanelMessage:SelectTab"
             }
-        },
+        }
     ]
 }

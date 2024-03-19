@@ -4,7 +4,9 @@
 
     // In-game panel rects.
     "LeftPanelRect": { "x": 0, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
+    "LeftPanelRectStats": { "x": 0, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
     "RightPanelRect":  { "x": -1346, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
+    "AdvancedPanelRect": { "x": 1353, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
 
     //ModStart ExpandedStorageMod
     //
@@ -13,8 +15,8 @@
     //modcomment: Though some things to move to make it fit different resolutions...
     //
 	"BankPanelRect": { "x": 0, "y": 0, "width": 1750, "height": 1799, "scale": 1.16 },
-	"BankPanelGoldAmountRect": { "x": 1135, "y": 1596, "width": 249, "height": 48 },
-	"BankPanelGoldWithdrawRect": { "x": 1080, "y": 1593 },
+	"BankPanelGoldAmountRect": { "x": 775, "y": 1596, "width": 249, "height": 48 },
+	"BankPanelGoldWithdrawRect": { "x": 720, "y": 1593 },
 	
 	"PlayerInventoryPanelRect": { "x": -1346, "y": 0, "width": 1162, "height": 1737, "scale": 1.16 },
 	"PlayerInventoryPanelGoldAmountRect": { "x": 819, "y": 1614, "width": 249, "height": 48 },
@@ -22,6 +24,7 @@
 
 	"HoradricCubePanelRect": { "x": 0, "y": 0, "width": 1744, "height": 1737, "scale": 1.16 },
 	"HoradricCubePanelConvert": { "x": 810, "y": 1508 },
+    "HoradricCubePanelRecipe": { "x": 175, "y": 1508 },
 
     //ModEnd ExpandedStorageMod
 
@@ -42,12 +45,31 @@
         "alignment": { "h": "left" },
         "options": { "newlineHandling": "standard", "lineWrap": true },
     },
+    "StyleSettingsText": {
+        "fontColor": "$FontColorLightGold",
+        "pointSize": "$MediumSmallPanelFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" },
+        "options": { "lineWrap": true },
+    },
+    "RecipeSettingsText": {
+        "fontColor": "$FontColorLightGold",
+        "pointSize": "$MediumSmallFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" },
+    },
+    "StyleSettingsCarousel": {
+        "pointSize": "$MediumSmallFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "center", "v": "center" },
+    },
     "StyleNPCDialogueSize": "$LargeFontSize",
 
     // K&M LV-mode in-game panels are just scaled up, thus we need
     // versions of fonts which can be used in panels.
     "XMediumPanelFontSize": 28,
     "MediumPanelFontSize": 26,
+    "MediumSmallPanelFontSize": 24,
     "SmallPanelFontSize": 22,
 
     "XMediumFontSize": 32,
@@ -98,14 +120,17 @@
 
     // SidePanel
     "LeftHingeSprite": "",
-    "LeftSideSprite": "PANEL\\Docking_Bar\\SidePanel_LV",
+    "LeftSideSprite": "PANEL\\Docking_Bar\\SidePanel_LV_BLank",
+    "LeftSideSpriteNew": "PANEL\\Docking_Bar\\SidePanel_LV",
     "LeftSideRect": { "y": 1744, "scale": 1.16 },
     "LeftSideCatcherRect": { "x": 0, "y": 1744, "width": 1162, "height": 360, "scale": 1.16 },
     "LeftSideRectImbuePanel": { "y": 1506 },
     "LeftSideRectHireMenu": { "y": 1506 },
     "RightHingeSprite": "",
-    "RightSideSprite": "PANEL\\Docking_Bar\\SidePanel_LV",
+    "RightSideSprite": "PANEL\\Docking_Bar\\SidePanel_LV_Blank",
+    "RightSideSpriteNew": "PANEL\\Docking_Bar\\SidePanel_LV",
     "RightSideRect": { "x": -1348, "y": 1744, "scale": 1.16 },
+    "RightSideSpriteRect": { "x": 0, "y": 1500 },
     "RightSideCatcherRect": { "x": -1348, "y": 1744, "width": 1162, "height": 360, "scale": 1.16 },
 
     // Cutscenes

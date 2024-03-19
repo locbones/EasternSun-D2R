@@ -2,7 +2,7 @@
     "type": "HoradricCubePanel", "name": "HoradricCubeLayout",
     "fields": {
         "priority": 10,
-        "rect": "$LeftPanelRect",
+        "rect": "$LeftPanelRectS",
         "anchor": "$LeftPanelAnchor",
     },
     "children": [
@@ -19,11 +19,18 @@
             },
         },
         {
+            "type": "ImageWidget", "name": "LeftSprite",
+            "fields": {
+                "rect": "$LeftSideRectHireMenu",
+                "filename": "$LeftSideSpriteNew_Blank"
+            }
+        },
+        {
             "type": "ImageWidget", "name": "LeftHinge",
             "fields": {
                 "rect": "$LeftHingeRect",
-                "filename": "$LeftHingeSprite"
-            },
+                "filename": "$LeftHingeSprite_Blank"
+            }
         },
         {
             "type": "TextBoxWidget", "name": "title",

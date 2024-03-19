@@ -14,7 +14,10 @@
             },
         },
         {
-            "type": "ImageWidget", "name": "RightHinge",
+            "type": "ImageWidget", "name": "RightSprite"
+        },
+        {
+            "type": "ImageWidget", "name": "RightHinge"
         },
         {
             "type": "TextBoxWidget", "name": "title",

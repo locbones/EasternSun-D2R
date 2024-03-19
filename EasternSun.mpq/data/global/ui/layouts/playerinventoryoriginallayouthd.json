@@ -1,7 +1,7 @@
 {
     "type": "PlayerInventoryPanel", "name": "PlayerInventoryOriginalLayout",
     "fields": {
-        "rect": "$RightPanelRect",
+        "rect": "$RightPanelRectI",
         "anchor": "$RightPanelAnchor",
     },
     "children": [
@@ -18,10 +18,17 @@
             },
         },
         {
+            "type": "ImageWidget", "name": "RightSprite",
+            "fields": {
+                "rect": "$RightSideRect",
+                "filename": "$RightSideSpriteNew_Blank"
+            },
+        },
+        {
             "type": "ImageWidget", "name": "RightHinge",
             "fields": {
                 "rect": "$RightHingeRect",
-                "filename": "$RightHingeSprite"
+                "filename": "$RightHingeSprite_Blank"
             },
         },
       //  {
