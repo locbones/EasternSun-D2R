@@ -71,20 +71,20 @@ Act 3 Mephisto Down R	68	-60	-150	125	180	0	5	5	1	1	2	0	b	68
 Act 4 Mesa to Lava	69	-60	-40	150	160	-5	0	2	2	0	2	0	b	69
 Act 4 Lava to Mesa	70	-90	-50	160	120	5	2	0	0	0	2	0	b	70
 Expansion														
-Act 5 Barricade Down Wall	71	-70	-80	80	100	5	2	2	6	1	4	0	l	71
-Act 5 Barricade Down Wall	71	-15	-90	70	100	-1	5	6	2	1	4	0	r	72
+Act 5 Barricade Down Wall L	71	-70	-80	80	100	5	2	2	6	1	4	0	l	71
+Act 5 Barricade Down Wall R	71	-15	-90	70	100	-1	5	6	2	1	4	0	r	72
 Act 5 Barricade Down Floor	72	-20	-120	75	100	5	2	2	2	1	4	0	b	73
-Act 5 Ice Caves Up	73	-60	-110	90	115	5	2	0	5	1	2	0	l	74
-Act 5 Ice Caves Up	73	-10	-120	100	120	2	5	5	1	1	2	0	r	75
-Act 5 Ice Caves Down	74	-60	-110	90	115	5	2	0	5	1	2	0	l	76
-Act 5 Ice Caves Down	74	-20	-110	90	115	2	5	4	0	1	2	0	r	77
+Act 5 Ice Caves Up L	73	-60	-110	90	115	5	2	0	5	1	2	0	l	74
+Act 5 Ice Caves Up R	73	-10	-120	100	120	2	5	5	1	1	2	0	r	75
+Act 5 Ice Caves Down L	74	-60	-110	90	115	5	2	0	5	1	2	0	l	76
+Act 5 Ice Caves Down R	74	-20	-110	90	115	2	5	4	0	1	2	0	r	77
 Act 5 Ice Caves Down Floor	75	-5	-110	80	110	2	5	6	3	1	2	0	b	78
 Act 5 Temple Entrance	76	0	-110	95	100	2	5	2	0	1	2	0	b	79
 Act 5 Temple Down	77	0	-70	140	80	5	2	-2	3	1	2	0	b	80
 Act 5 Temple Up	78	-20	-110	100	110	5	2	3	0	1	2	0	b	81
 Act 5 Mountain Top To Ice	79	-40	-110	0	0	2	5	2	1	0	2	1	b	82
 Act 5 Mountain Top To Baal	80	-20	-110	0	0	2	5	2	1	0	2	1	b	83
-Act 5 Baal Temple Up	81	-70	-110	95	115	5	2	1	4	1	2	0	l	84
-Act 5 Baal Temple Up	81	-20	-110	80	115	2	5	4	1	1	2	0	r	85
-Act 5 Baal Temple Down	82	-70	-110	95	115	5	2	1	4	1	2	0	l	86
-Act 5 Baal Temple Down	82	-20	-110	80	115	2	5	4	1	1	2	0	r	87
+Act 5 Baal Temple Up L	81	-70	-110	95	115	5	2	1	4	1	2	0	l	84
+Act 5 Baal Temple Up R	81	-20	-110	80	115	2	5	4	1	1	2	0	r	85
+Act 5 Baal Temple Down L	82	-70	-110	95	115	5	2	1	4	1	2	0	l	86
+Act 5 Baal Temple Down R	82	-20	-110	80	115	2	5	4	1	1	2	0	r	87

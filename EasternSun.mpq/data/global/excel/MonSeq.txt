@@ -788,15 +788,14 @@ seq_ancientwhirlwind	A1	6			0
 seq_ancientwhirlwind	A1	7		1	0
 seq_infernosentry	S2	0			0
 seq_infernosentry	S2	0			0
+seq_infernosentry	S2	0			0
+seq_infernosentry	S2	0			0
+seq_infernosentry	S2	0			0
+seq_infernosentry	S2	0			0
+seq_infernosentry	S2	0			0
+seq_infernosentry	S2	0			0
+seq_infernosentry	S2	0			0
 seq_infernosentry	S2	1		1	0
-seq_infernosentry	S2	0			0
-seq_infernosentry	S2	0			0
-seq_infernosentry	S2	0			0
-seq_infernosentry	S2	0			0
-seq_infernosentry	S2	0			0
-seq_infernosentry	S2	0			0
-seq_infernosentry	S2	0			0
-seq_infernosentry	S2	0			0
 seq_infernosentry	S2	0			0
 seq_infernosentry	S2	0			0
 seq_infernosentry	S2	0			0
@@ -1010,84 +1009,3 @@ seq_crlancerjab	A1	14			0
 seq_crlancerjab	A1	15			0
 seq_crlancerjab	A1	16			0
 seq_crlancerjab	A1	17			0
-seq_serpentcharge2	WL	0		1	0
-seq_serpentcharge2	WL	2		1	0
-seq_serpentcharge2	WL	4		1	0
-seq_serpentcharge2	WL	6		1	0
-seq_serpentcharge2	WL	7		1	0
-seq_serpentcharge2	WL	8		1	0
-seq_serpentcharge2	WL	9		1	0
-seq_serpentcharge2	WL	10		1	0
-seq_serpentcharge2	A2	3			0
-seq_serpentcharge2	A2	7		1	0
-seq_serpentcharge2	A2	8			0
-seq_serpentcharge2	A2	9			0
-seq_serpentcharge2	A2	10			0
-seq_serpentcharge2	A2	11			0
-seq_GoatLordRes	A1	0			0
-seq_GoatLordRes	A1	1			0
-seq_GoatLordRes	A1	2			0
-seq_GoatLordRes	A1	3			0
-seq_GoatLordRes	A1	4			0
-seq_GoatLordRes	A1	5		1	0
-seq_GoatLordRes	A1	6			0
-seq_GoatLordRes	A1	7			0
-seq_GoatLordRes	A1	8			0
-seq_GoatLordRes	A1	9			0
-seq_GoatLordRes	A1	10			0
-seq_GoatLordRes	A1	11			0
-seq_GoatLordRes	A1	12			0
-seq_GoatLordRes	A1	13			0
-seq_D1hornedcharge	S1	0		1	0
-seq_D1hornedcharge	S1	1		1	0
-seq_D1hornedcharge	S1	2		1	0
-seq_D1hornedcharge	S1	3		1	0
-seq_D1hornedcharge	S1	4		1	0
-seq_D1hornedcharge	S1	5		1	0
-seq_D1hornedcharge	S1	0		1	0
-seq_D1hornedcharge	S1	1		1	0
-seq_D1hornedcharge	S1	2		1	0
-seq_D1hornedcharge	S1	3		1	0
-seq_D1hornedcharge	S1	4		1	0
-seq_D1hornedcharge	S1	5		1	0
-seq_D1hornedcharge	A1	10			0
-seq_D1hornedcharge	A1	11			0
-seq_D1hornedcharge	A1	12			0
-seq_D1hornedcharge	A1	13			0
-seq_dopplestrafe	A1	1			0
-seq_dopplestrafe	A1	4			0
-seq_dopplestrafe	A1	5		2	0
-seq_dopplestrafe	A1	6			0
-seq_dopplestrafe	A1	7			0
-seq_dopplestrafe	A1	4			0
-seq_dopplestrafe	A1	5		2	0
-seq_dopplestrafe	A1	7			0
-seq_dopplestrafe	A1	8			0
-seq_dopplestrafe	A1	9			0
-seq_dopplestrafe	A1	10			0
-seq_dopplestrafe	A1	11			0
-seq_D1ViperCharge	A1	0		1	0
-seq_D1ViperCharge	A1	1		1	0
-seq_D1ViperCharge	A1	2		1	0
-seq_D1ViperCharge	A1	3		1	0
-seq_D1ViperCharge	A1	4		1	0
-seq_D1ViperCharge	A1	5		1	0
-seq_D1ViperCharge	A1	6		1	0
-seq_D1ViperCharge	A1	7		1	0
-seq_D1ViperCharge	A1	8		1	0
-seq_D1hornedcharge	S1	0		1	0
-seq_D1hornedcharge	S1	1		1	0
-seq_D1hornedcharge	S1	2		1	0
-seq_D1hornedcharge	S1	3		1	0
-seq_D1hornedcharge	S1	4		1	0
-seq_D1hornedcharge	S1	5		1	0
-seq_D1hornedcharge	S1	0		1	0
-seq_D1hornedcharge	S1	1		1	0
-seq_D1hornedcharge	S1	2		1	0
-seq_D1hornedcharge	S1	3		1	0
-seq_D1hornedcharge	S1	4		1	0
-seq_D1hornedcharge	S1	5		1	0
-seq_D1hornedcharge	A1	10			0
-seq_D1hornedcharge	A1	11			0
-seq_D1hornedcharge	A1	12			0
-seq_D1hornedcharge	A1	13			0

@@ -2,7 +2,7 @@ Id	prop1	chance1	par1	min1	max1	prop2	chance2	par2	min2	max2	prop3	chance3	par3	
 baboon6	fade			1	1																										fade			2	2																										fade			2	2																										0
 irongolem	fade			16	16																										fade			16	16																										fade			16	16																										0
 mephisto																															cast2			15	15	swing2			15	15																					cast2			30	30	swing2			30	30																					0
-blunderbore																															crush			15	15																										crush			25	25																										0
+blunderbore	crush			10	10																										crush			20	20																										crush			30	30																										0
 councilmember1																															extra-fire			40	40																										extra-fire			100	100																										0
 councilmember2																															extra-fire			40	40																										extra-fire			100	100																										0
 councilmember3																															extra-fire			40	40																										extra-fire			100	100																										0
@@ -15,19 +15,24 @@ druidhawk	stupidity			-1	-1																										stupidity			-1	-1										
 ancientbarb	state		fullsetgeneric	1	1																																																																																						0
 epierce	pierce-fire			0	10	pierce-ltng			0	10	pierce-cold			0	10	pierce-pois			0	10											pierce-fire			5	15	pierce-ltng			5	15	pierce-cold			5	15	pierce-pois			5	15											pierce-fire			10	20	pierce-ltng			10	20	pierce-cold			10	20	pierce-pois			10	20											0
 epiercefade	pierce-fire			0	10	pierce-ltng			0	10	pierce-cold			0	10	pierce-pois			0	10	fade			1	1						pierce-fire			5	15	pierce-ltng			5	15	pierce-cold			5	15	pierce-pois			5	15	fade			1	1						pierce-fire			10	20	pierce-ltng			10	20	pierce-cold			10	20	pierce-pois			10	20	fade			1	1						0
-red	state		228	1	1																										state		228	1	1																										state		228	1	1																										0
+red	state		217	1	1																										state		217	1	1																										state		217	1	1																										0
 epiercered	pierce-fire			0	10	pierce-ltng			0	10	pierce-cold			0	10	pierce-pois			0	10	state		228	1	1						pierce-fire			5	15	pierce-ltng			5	15	pierce-cold			5	15	pierce-pois			5	15	state		228	1	1						pierce-fire			10	20	pierce-ltng			10	20	pierce-cold			10	20	pierce-pois			10	20	state		228	1	1						0
 hireling	addxp			50	50																										addxp			50	50																										addxp			50	50																										0
 a3hireling	addxp			50	50	extra-fire			33	33	extra-ltng			33	33	extra-cold			33	33											addxp			50	50	extra-fire			33	33	extra-ltng			33	33	extra-cold			33	33											addxp			50	50	extra-fire			33	33	extra-ltng			33	33	extra-cold			33	33											0
 cb	crush			10	10																										crush			20	20																										crush			30	30																										0
 cbkb	crush			10	10	knock			1	1																					crush			20	20	knock			1	1																					crush			30	30	knock			1	1																					0
 slow	slow			30	30																										slow			40	40																										slow			50	50																										0
-black	state		244	1	1																										state		244	1	1																										state		244	1	1																										0
-gold	state		245	1	1																										state		245	1	1																										state		245	1	1																										0
-copper	state		246	1	1																										state		246	1	1																										state		246	1	1																										0
-cbblack	crush			10	10	state		244	1	1																					crush			20	20	state		244	1	1																					crush			30	30	state		244	1	1																					0
-cbfadeblack	crush			10	10	state		244	1	1	fade			1	1																crush			20	20	state		244	1	1	fade			2	2																crush			30	30	state		244	1	1	fade			2	2																0
+black	state		233	1	1																										state		233	1	1																										state		233	1	1																										0
+gold	state		234	1	1																										state		234	1	1																										state		234	1	1																										0
+copper	state		235	1	1																										state		235	1	1																										state		235	1	1																										0
+cbblack	crush			10	10	state		233	1	1																					crush			20	20	state		233	1	1																					crush			30	30	state		233	1	1																					0
+cbfadeblack	crush			10	10	state		233	1	1	fade			1	1																crush			20	20	state		233	1	1	fade			2	2																crush			30	30	state		233	1	1	fade			2	2																0
 cbabs	crush			10	10	abs-fire%			5	5	abs-cold%			5	5	abs-ltng%			5	5											crush			20	20	abs-fire%			15	15	abs-cold%			15	15	abs-ltng%			15	15											crush			30	30	abs-fire%			25	25	abs-cold%			25	25	abs-ltng%			25	25											0
 cbabspierce	crush			10	10	abs-fire%			5	5	abs-cold%			5	5	abs-ltng%			5	5	pierce			30	30						crush			20	20	abs-fire%			15	15	abs-cold%			15	15	abs-ltng%			15	15	pierce			60	60						crush			30	30	abs-fire%			25	25	abs-cold%			25	25	abs-ltng%			25	25	pierce			90	90						0
 actboss	crush			10	10	abs-fire%			5	5	abs-cold%			5	5	abs-ltng%			5	5	haste			10	10	cast2			10	10	crush			20	20	abs-fire%			15	15	abs-cold%			15	15	abs-ltng%			15	15	haste			20	20	cast2			20	20	crush			30	30	abs-fire%			25	25	abs-cold%			25	25	abs-ltng%			25	25	haste			30	30	cast2			30	30	0
-epiercelblu	pierce-fire			0	10	pierce-ltng			0	10	pierce-cold			0	10	pierce-pois			0	10	state		228	1	1						pierce-fire			5	15	pierce-ltng			5	15	pierce-cold			5	15	pierce-pois			5	15	state		228	1	1						pierce-fire			10	20	pierce-ltng			10	20	pierce-cold			10	20	pierce-pois			10	20	state		228	1	1						0
+fade	fade			1	1																										fade			1	1																										fade			1	1																										0
+epierceblue	pierce-fire			0	10	pierce-ltng			0	10	pierce-cold			0	10	pierce-pois			0	10	state		244	1	1						pierce-fire			5	15	pierce-ltng			5	15	pierce-cold			5	15	pierce-pois			5	15	state		244	1	1						pierce-fire			10	20	pierce-ltng			10	20	pierce-cold			10	20	pierce-pois			10	20	state		244	1	1						0
+splash25	att-skill	25	468	100	100																										att-skill	25	468	100	100																										att-skill	25	468	100	100																										0
+splash50	att-skill	50	468	100	100																										att-skill	50	468	100	100																										att-skill	50	468	100	100																										0
+splash100	att-skill	100	468	100	100																										att-skill	100	468	100	100																										att-skill	100	468	100	100																										0
+ravenimpprop	deadly	100		10	10																										deadly	100		20	20																										deadly	100		30	30																										0

@@ -1,4 +1,4 @@
-monster	oninit	level	item1	loc1	mod1	item2	loc2	mod2	item3	loc3	mod3	*eol
+monster	oninit	level	item1	loc1	mod1	item2	loc2	mod2	item3	loc3	mod3	eol
 bloodraven	1	0	sbw	rarm	6							0
 flyingscimitar	1	0	scm	rarm	6							0
 valkyrie		27	ci2	head	6							0
@@ -71,4 +71,5 @@ walkingdecoy		18	baa	head	6							0
 walkingdecoy		12	xth	tors	6							0
 walkingdecoy		9	ba5	head	5							0
 walkingdecoy		0	gth	tors	5							0
+blackknight1		0	ghm	head	1	gth	tors	1	kit	larm	1	0
 *end*  do not remove												0

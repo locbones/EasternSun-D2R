@@ -24,18 +24,11 @@
             }
         },
         {
-            "type": "ImageWidget", "name": "LeftSprite",
-            "fields": {
-                "rect": "$LeftSideRectHireMenu",
-                "filename": "$LeftSideSpriteNew"
-            }
-        },
-        {
             "type": "ImageWidget", "name": "LeftHinge",
             "fields": {
                 "rect": "$LeftHingeRect",
                 "filename": "$LeftHingeSprite"
-            }
+            },
         },
         {
             "type": "TextBoxWidget", "name": "Title",
@@ -499,21 +492,42 @@
         {
             "type": "HirelingSkillIconWidget", "name": "Skill0",
             "fields": {
-                "rect": { "x": 673, "y": 1007, "scale": 0.60 },
+                "rect": { "x": 591, "y": 1007, "scale": 0.58 },
                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
             }
         },
         {
             "type": "HirelingSkillIconWidget", "name": "Skill1",
             "fields": {
-                "rect": { "x": 780, "y": 1007, "scale": 0.60 },
+                "rect": { "x": 671, "y": 1007, "scale": 0.58 },
                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
             }
         },
         {
             "type": "HirelingSkillIconWidget", "name": "Skill2",
             "fields": {
-                "rect": { "x": 887, "y": 1007, "scale": 0.60 },
+                "rect": { "x": 751, "y": 1007, "scale": 0.58 },
+                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
+            }
+        },
+        {
+            "type": "HirelingSkillIconWidget", "name": "Skill3",
+            "fields": {
+                "rect": { "x": 831, "y": 1007, "scale": 0.58 },
+                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
+            }
+        },
+        {
+            "type": "HirelingSkillIconWidget", "name": "Skill4",
+            "fields": {
+                "rect": { "x": 911, "y": 1007, "scale": 0.58 },
+                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
+            }
+        },
+        {
+            "type": "HirelingSkillIconWidget", "name": "Skill5",
+            "fields": {
+                "rect": { "x": 991, "y": 1007, "scale": 0.58 },
                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
             }
         },
