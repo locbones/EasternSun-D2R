@@ -781,5 +781,6 @@
     "hydraball": "bighead_lightning_missile",
     "thunderstormnova": "exp_arrow_explode",
     "vengeancefire_2": "electric_nova",
-    "dopplestrafearrow": "arrow"
+    "dopplestrafearrow": "arrow",
+    "shuriken": "missile_dagger"
 }
